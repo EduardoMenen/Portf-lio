@@ -22,6 +22,24 @@ nav a {
     color: green; 
 }
 
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: green; 
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: bold;
+}
+
+.botao:hover {
+    transform: translateY(-5px); /* Levanta o botão */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -120,4 +138,8 @@ footer p {
 footer img {
     width: 40px;
     height: 20;
+}
+
+html {
+    scroll-behavior: smooth;
 }
